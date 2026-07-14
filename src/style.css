@@ -1,0 +1,16 @@
+/* ===================================================================
+ *  Global Styles — style.css
+ * ===================================================================
+ *  Tailwind directives + font mặc định toàn cục.
+ *  Không cần sửa file này trừ khi muốn override global style.
+ * =================================================================== */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  background-color: #FDFBF7;
+  color: #1A1A1A;
+}
